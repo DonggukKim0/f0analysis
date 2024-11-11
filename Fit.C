@@ -11,7 +11,7 @@
 #include <sstream>
 #include <iomanip>
 
-double_t threshold = 0.139570*2.;   //  charged pion mass = 139.6 MeV
+double_t abcd = 0.139570*2.;   //  charged pion mass = 139.6 MeV
 
 //  PS (Invariant mass, Kinetic freeze-out temperature = 160 MeV, pT)
 double PhaseSpaceFactor(double x, double T, double pT) {
